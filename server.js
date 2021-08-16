@@ -36,7 +36,6 @@ app.post("api/notes", (req,res) =>{
  res.json(JSON.parse(noteData))
 
 } catch (err) {
-    console.log("\n error (catch err app.get):");
     console.log(err);
 }
 });
